@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, black, #2d2d2d);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container Section */
+.container {
+  max-width: 400px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Avatar */
+.container img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Name */
+.container h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Location */
+.container p {
+  margin: 0.5rem 0;
+}
+
+/* Location Color */
+.text-green {
+  color: #4caf50;
+}
+
+/* Description */
+.text-gray {
+  color: #bbbbbb;
+}
+
+/* Social Buttons */
+.social-buttons a {
+  display: block;
+  text-decoration: none;
+  background: #333;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.social-buttons a:hover {
+  background: #444;
+}
+
+/* Attribution */
+.attribution {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.attribution a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}

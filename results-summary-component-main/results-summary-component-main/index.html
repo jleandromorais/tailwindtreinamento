@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&display=swap');
+    html {
+      font-family: 'Hanken Grotesk', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[hsl(221,100%,96%)] flex justify-center items-center min-h-screen">
+
+  <div class="flex shadow-lg rounded-2xl overflow-hidden">
+
+    <!-- Seção Your Result -->
+    <section class="bg-gradient-to-b from-purple-500 to-blue-600 text-white p-8 w-56 flex flex-col items-center text-center">
+      <h1 class="text-sm font-medium text-white/50 mb-4">Your Result</h1>
+      <div class="bg-gradient-to-t from-blue-600 to-blue-400 w-20 h-20 flex flex-col items-center justify-center gap-1 rounded-full">
+        <h2 class="text-4xl font-bold">76</h2>
+        <p class="text-white/50 text-sm">of 100</p>
+      </div>
+      <h3 class="text-xl font-bold mt-6">Great</h3>
+      <p class="text-sm text-white/50 mt-2">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+    <!-- Seção Summary -->
+    <section class="bg-white p-6 w-80 flex flex-col gap-4">
+      <h1 class="text-sm font-bold text-gray-800">Summary</h1>
+
+      <!-- Tópico Reaction -->
+      <div class="flex items-center justify-between bg-red-100 p-4 rounded-lg">
+        <img src="assets/images/icon-reaction.svg" alt="icon-reaction" class="w-6 h-6">
+        <h2 class="text-red-500 font-semibold text-sm flex-grow pl-4">Reaction</h2>
+        <p class="font-bold text-gray-800">80 <span class="text-gray-500">/ 100</span></p>
+      </div>
+
+      <!-- Tópico Memory -->
+      <div class="flex items-center justify-between bg-yellow-100 p-4 rounded-lg">
+        <img src="assets/images/icon-memory.svg" alt="icon-memory" class="w-6 h-6">
+        <h2 class="text-yellow-500 font-semibold text-sm flex-grow pl-4">Memory</h2>
+        <p class="font-bold text-gray-800">92 <span class="text-gray-500">/ 100</span></p>
+      </div>
+
+      <!-- Tópico Verbal -->
+      <div class="flex items-center justify-between bg-green-100 p-4 rounded-lg">
+        <img src="assets/images/icon-verbal.svg" alt="icon-verbal" class="w-6 h-6">
+        <h2 class="text-green-500 font-semibold text-sm flex-grow pl-4">Verbal</h2>
+        <p class="font-bold text-gray-800">61 <span class="text-gray-500">/ 100</span></p>
+      </div>
+
+      <!-- Tópico Visual -->
+      <div class="flex items-center justify-between bg-blue-100 p-4 rounded-lg">
+        <img src="assets/images/icon-visual.svg" alt="icon-visual" class="w-6 h-6">
+        <h2 class="text-blue-500 font-semibold text-sm flex-grow pl-4">Visual</h2>
+        <p class="font-bold text-gray-800">72 <span class="text-gray-500">/ 100</span></p>
+      </div>
+
+      <button class="w-full bg-gray-800 text-white py-2 rounded-full text-sm font-bold mt-4 hover:bg-gray-900">
+        Continue
+      </button>
+    </section>
+
+  </div>
+
+</body>
+</html>
